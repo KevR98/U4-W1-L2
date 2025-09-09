@@ -11,9 +11,16 @@ public class Main {
         while (true) {
             System.out.print("Inserisci una parola: ");
             parola = scanner.nextLine();
-            System.out.println(parola);
+
+            String[] virgola = parola.split("");
+//            System.out.println(Arrays.toString(virgola));
+            // Con questo codice stampa la parola in un array
+
+            System.out.println(String.join(", ", virgola));
+
             if (parola.equals("q")) break;
         }
 
+        scanner.close();
     }
 }
