@@ -18,6 +18,7 @@ public class Main {
         int anno = Integer.parseInt(scanner.nextLine());
         annoBisestile(anno);
 
+        System.out.println("Uscita dal programma...");
         scanner.close();
 
     }

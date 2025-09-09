@@ -26,6 +26,7 @@ public class Main {
                 System.out.println("Errore");
         }
 
+        System.out.println("Uscita dal programma...");
         scanner.close();
     }
 }

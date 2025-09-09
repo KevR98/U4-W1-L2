@@ -14,7 +14,8 @@ public class Main {
         for (int i = n; i >= 0; i--) {
             System.out.println(i);
         }
-
+        
+        System.out.println("Uscita dal programma...");
         scanner.close();
     }
 }

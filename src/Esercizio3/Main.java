@@ -18,7 +18,11 @@ public class Main {
 
             System.out.println(String.join(", ", virgola));
 
-            if (parola.equals("q")) break;
+            if (parola.equals("q")) {
+                System.out.println("Uscita dal programma...");
+                break;
+            }
+            ;
         }
 
         scanner.close();
